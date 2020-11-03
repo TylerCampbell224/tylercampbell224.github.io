@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <script type="text/javascript">
+      var myName = "Tyler Campbell";
+      var myArray = [25, 50, 75, 100]
+      var myObject = {firstname:"Tyler",lastname:"Campbell",age:"18"}
+
+      if (myObject.age > 60)
+      {
+        alert("You're getting old take a nap boomer")
+      }
+      else
+      {
+        alert("You are young")
+      }
+
+      alert(myObject.firstname);
+    </script>
+
+  </head>
+
+  <body bgcolor="lightblue">
+
+    <img id="image" src="images/myAnimation.gif"><br />
+
+    <script>
+    document.write(5 + 6);
+    </script>
+
+    <script>
+    console.log(5 + 6);
+    </script>
+
+    <p id="demo"></p>
+    <br />
+    <p id="p1">Hello World</p>
+    <p id="p2">Hello World</p>
+
+
+
+    <script type="text/javascript">
+      document.getElementById("demo").innerHTML += "Hello world"
+      document.body.style.background = "lightyellow";
+      document.write(Date());
+      document.getElementById("image").src = "images/myCreation.gif";
+      document.getElementById("p2").style.color = "blue";
+      document.getElementById("p2").style.fontFamily = "Another Danger";
+      document.getElementById("p2").style.fontSize = "20px";
+    </script>
+
+    <br /><br /><br /><br />
+
+    <div id="lightbulb">
+      <button onclick="document.getElementById('myImage').src='images/pic_bulbon.gif'">Turn on the light</button>
+
+      <img id="myImage" src="images/pic_bulboff.gif" style="width:100px"
+      onmouseover="document.getElementById('lightbulb').style.display='none'">
+
+      <button onclick="document.getElementById('myImage').src='images/pic_bulboff.gif'">Turn off the light</button>
+    </div>
+
+  </body>
+</html>

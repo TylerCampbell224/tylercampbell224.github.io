@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="site.css" />
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <form class="textCenter" action ="index.html" method="post">
+      <label>Please fill out the following info:</label>
+      <br /><br />
+      <label for="firstname">First Name:</label>
+      <input type="text" name="firstname" placeholder="First name here..." size="20">
+      <br /><br />
+      <label for="lastname">Last Name:</<label>
+      <input type="text" name="lastname" placeholder="Last name here..." size="30">
+      <br /><br />
+      <label for="userPass">Password:</label>
+      <input type="password" name="userPass">
+      <br /><br />
+
+      <label for="description">Describe yourself:</label>
+      <br /><br />
+      <textarea name="description" rows="4" cols="50"></textarea>
+      <br /><br />
+
+      <label for="">Subjects:</label>
+      <input type="checkbox" name="physics" value="on">Physics
+      <input type="checkbox" name="math" value="on">Math
+      <input type="checkbox" name="english" value="on">English
+      <br /><br />
+      <input type="radio" name="food" value="fruit">Fruit
+      <input type="radio" name="food" value="vegetable">Vegetable
+      <input type="radio" name="food" value="potato">Potato
+      <br /><br />
+      <label for="songs">Favourite songs:</label>
+      <select name="songs" multiple>
+        <option value="0" placeholder=""></option>
+        <option value="1">Avalanche - Arch Enemy</option>
+        <option value="2">The Call of Ares - The Word of Lawder</option>
+      </select>
+
+
+      <br /><br />
+      <input type ="submit">
+    </form>
+  </body>
+</html>
